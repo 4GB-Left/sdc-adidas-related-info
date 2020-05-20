@@ -1,5 +1,5 @@
 ## CRUD Specification for Adidas Related Info Microservice
-### For the "inventory" collection
+### For the "Inventory" collection
 The CRUD operation will be consist of a "get" to retrieve the inventory by availability of size by product_id, a "post" to store the product size in a collection, a "put" to modify the product size information and a "delete" to delete the product inventory information from the collection
 
 ### inventory: CRUD/End-point
@@ -8,7 +8,7 @@ The CRUD operation will be consist of a "get" to retrieve the inventory by avail
 #### ```PUT    : /api/v1/:product_id/inventory```
 #### ```DELETE : /api/v1/:product_id/inventory```
 
-### For the "product" collection
+### For the "Products" collection
 The CRUD operation will be consist of a "get" to retrieve the product by product_id, a "post" to store the product in a collection, a "put" to modify the product information and a "delete" to delete the product from the collection
 
 ### product: CRUD/End-point
@@ -35,7 +35,7 @@ The CRUD operation will be consist of a "get" to retrieve the pants by id, a "po
 #### ```PUT    : /api/v1/:id/pants```
 #### ```DELETE : /api/v1/:id/pants```
 
-### For the "like" collection
+### For the "Like" collection
 This collection will only have one CRUD operation,  a "post" that is invoke when a user click on the heart emoji
 
 ### like: CRUD/End-point
