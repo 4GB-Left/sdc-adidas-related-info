@@ -19,7 +19,7 @@ The CRUD operation will be consist of a "get" to retrieve the inventory by avail
 #### ```DELETE : /api/v1/:product_id/inventory```
 
 ### For the "Related Product" Collection
-The CRUD operation will be consist of a "get" to retrieve the related product by category, a "post" to store the realted product in a collection, a "put" to modify the related product information and a "delete" to delete the related product information from the collection
+The CRUD operation will be consist of a "get" to retrieve the related product by category, a "post" to store the related product in a collection, a "put" to modify the related product information and a "delete" to delete the related product information from the collection
 
 ### Related Product: CRUD/End-point
 #### ```GET    : /api/v1/:product_id/inventory```
