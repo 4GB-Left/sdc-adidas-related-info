@@ -17,10 +17,10 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
 #### ```PUT    : /api/v1/product/:product_id```
 #### ```DELETE : /api/v1/product/:product_id```
 
-### For the "Shirt" Collection
+### For the "Shirts" Collection
 The CRUD operation will be consist of a "get" to retrieve the shirt by id, a "post" to store the shirt information in a collection, a "put" to modify the shirt information and a "delete" to delete the shirt information from the collection
 
-### Related Shirt: CRUD/End-point
+### shirt: CRUD/End-point
 #### ```GET    : /api/v1/shirts/:id```
 #### ```POST   : /api/v1/shirts/:id```
 #### ```PUT    : /api/v1/shirts/:id```
@@ -29,13 +29,13 @@ The CRUD operation will be consist of a "get" to retrieve the shirt by id, a "po
 ### For the "Pants" Collection
 The CRUD operation will be consist of a "get" to retrieve the pants by id, a "post" to store the pants information in a collection, a "put" to modify the pants information and a "delete" to delete the pants information from the collection
 
-### Related Pants: CRUD/End-point
+### pants: CRUD/End-point
 #### ```GET    : /api/v1/pants/:id```
 #### ```POST   : /api/v1/pants/:id```
 #### ```PUT    : /api/v1/pants/:id```
 #### ```DELETE : /api/v1/pants/:id```
 
-### For the "Like" collection
+### For the "Likes" collection
 This collection will only have one CRUD operation,  a "post" that is invoke when a user click on the heart emoji
 
 ### like: CRUD/End-point
