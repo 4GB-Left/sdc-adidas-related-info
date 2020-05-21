@@ -10,7 +10,7 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
 #### ```DELETE : /api/v1/products/:product_id```
 
 ### Get product info
-  * GET `/api/v1/products/:id`
+  * GET `/api/v1/products/:product_id`
 
 **Path Parameters:**
   * `id` product id
@@ -50,7 +50,7 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
 ```
 
 ### Update product info
-  * PUT `/api/v1/products/:id`
+  * PUT `/api/v1/products/:product_id`
 
 **Path Parameters:**
   * `id` product id
