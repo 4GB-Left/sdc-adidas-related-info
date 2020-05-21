@@ -4,7 +4,7 @@ The CRUD operation will be consist of a "get" to retrieve the inventory by avail
 
 ### inventory: CRUD/End-point
 #### ```GET    : /api/v1/inventory/:product_id```
-#### ```POST   : /api/v1/inventory/:product_id```
+#### ```POST   : /api/v1/inventory/```
 #### ```PUT    : /api/v1/inventory/:product_id```
 #### ```DELETE : /api/v1/inventory/:product_id```
 
@@ -20,18 +20,18 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
 ### For the "Shirt" Collection
 The CRUD operation will be consist of a "get" to retrieve the shirt by id, a "post" to store the shirt information in a collection, a "put" to modify the shirt information and a "delete" to delete the shirt information from the collection
 
-### Related Shirt: CRUD/End-point
+### Shirt: CRUD/End-point
 #### ```GET    : /api/v1/shirts/:id```
-#### ```POST   : /api/v1/shirts/:id```
+#### ```POST   : /api/v1/shirts```
 #### ```PUT    : /api/v1/shirts/:id```
 #### ```DELETE : /api/v1/shirts/:id```
 
 ### For the "Pants" Collection
 The CRUD operation will be consist of a "get" to retrieve the pants by id, a "post" to store the pants information in a collection, a "put" to modify the pants information and a "delete" to delete the pants information from the collection
 
-### Related Pants: CRUD/End-point
+### Pants: CRUD/End-point
 #### ```GET    : /api/v1/pants/:id```
-#### ```POST   : /api/v1/pants/:id```
+#### ```POST   : /api/v1/pants/```
 #### ```PUT    : /api/v1/pants/:id```
 #### ```DELETE : /api/v1/pants/:id```
 
