@@ -5,7 +5,7 @@ const shirtsSchema = new mongoose.Schema({
   id: Number,
   name: String,
   price: Number,
-  sizes: ['x-small', 'small', 'medium', 'large', 'x-large'],
+  sizes: {type: String, enum: ['x-small', 'small', 'medium', 'large', 'x-large']},
   stock: Number
 };
 const shirtsModel = mongoose.model('Shirts', shirtsSchema);
@@ -15,7 +15,7 @@ const pantsSchema = new mongoose.Schema({
   id: Number,
   name: String,
   price: Number,
-  sizes: ['x-small', 'small', 'medium', 'large', 'x-large'],
+  sizes: {type: String, enum: ['x-small', 'small', 'medium', 'large', 'x-large']},
   stock: Number
 };
 const pantsModel = mongoose.model('Pants', pantsSchema);
@@ -25,7 +25,7 @@ const socksSchema = new mongoose.Schema({
   id: Number,
   name: String,
   price: Number,
-  sizes: ['x-small', 'small', 'medium', 'large', 'x-large'],
+  sizes: {type: String, enum: ['x-small', 'small', 'medium', 'large', 'x-large']},
   stock: Number
 };
 const socksModel = mongoose.model('Socks', socksSchema);
