@@ -4,10 +4,10 @@
 The CRUD operation will be consist of a "get" to retrieve the shirt by id, a "post" to store the shirt information in a collection, a "put" to modify the shirt information and a "delete" to delete the shirt information from the collection
 
 ### Shirt: CRUD/End-point
-#### ```GET    : /api/v1/shirts/:id```
+#### ```GET    : /api/v1/shirts/:shirt_id```
 #### ```POST   : /api/v1/shirts```
-#### ```PUT    : /api/v1/shirts/:id```
-#### ```DELETE : /api/v1/shirts/:id```
+#### ```PUT    : /api/v1/shirts/:shirt_id```
+#### ```DELETE : /api/v1/shirts/:shirt_id```
 
 ### Get shirt info
   * GET `/api/v1/shirts/:id`
@@ -32,10 +32,10 @@ The CRUD operation will be consist of a "get" to retrieve the shirt by id, a "po
 The CRUD operation will be consist of a "get" to retrieve the pants by id, a "post" to store the pants information in a collection, a "put" to modify the pants information and a "delete" to delete the pants information from the collection
 
 ### Pants: CRUD/End-point
-#### ```GET    : /api/v1/pants/:id```
+#### ```GET    : /api/v1/pants/:pant_id```
 #### ```POST   : /api/v1/pants/```
-#### ```PUT    : /api/v1/pants/:id```
-#### ```DELETE : /api/v1/pants/:id```
+#### ```PUT    : /api/v1/pants/:pant_id```
+#### ```DELETE : /api/v1/pants/:pant_id```
 
 ### Add pant
   * POST `/api/v1/pants/`
@@ -75,7 +75,7 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
     {
       "name": "String",
       "price": "Number",
-      "salePrice": "Number",
+      "sale_price": "Number",
       "picture": "String",
       "description": "String",
       "category": "String"
@@ -108,10 +108,10 @@ This collection will only have one CRUD operation,  a "post" that is invoke when
 The CRUD operation will be consist of a "get" to retrieve the socks by id, a "post" to store the socks information in a collection, a "put" to modify the socks information and a "delete" to delete the socks information from the collection
 
 ### Socks: CRUD/End-point
-#### ```GET    : /api/v1/socks/:id```
+#### ```GET    : /api/v1/socks/:sock_id```
 #### ```POST   : /api/v1/socks```
-#### ```PUT    : /api/v1/socks/:id```
-#### ```DELETE : /api/v1/socks/:id```
+#### ```PUT    : /api/v1/socks/:sock_id```
+#### ```DELETE : /api/v1/socks/:sock_id```
 
 ### Update sock info
   * PUT `/api/v1/socks/:id`
