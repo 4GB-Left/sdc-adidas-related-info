@@ -27,7 +27,8 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
       "sale_price": "Number",
       "picture": "String",
       "description": "String",
-      "category": "String"
+      "category": "String",
+      "like": "Boolean"
     }
 ```
 
@@ -45,7 +46,8 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
       "sale_price": "Number",
       "picture": "String",
       "description": "String",
-      "category": "String"
+      "category": "String",
+      "like": "Boolean"
     }
 ```
 
@@ -67,7 +69,8 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
       "sale_price": "Number",
       "picture": "String",
       "description": "String",
-      "category": "String"
+      "category": "String",
+      "likes": "Boolean"
     }
 ```
 
