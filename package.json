@@ -13,7 +13,9 @@
     "webpack": "webpack -d --watch",
     "seed": "mysql -u `cat ./seed/mysql.user` -p`cat ./seed/mysql.pass` < ./seed/schema_data.sql && exit 0",
     "build:docker": "./docker_build.sh",
-    "build:prod": "webpack --config webpack.prod.js"
+    "build:prod": "webpack --config webpack.prod.js",
+    "sdc-dev": "nodemon server/sdc-server.js",
+    "sdc-prod": "node server/sdc-server.js"
   },
   "repository": {
     "type": "git",

@@ -9,8 +9,10 @@ const app = express();
 // define express middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('./public'));
 
-app.use(express.static(path.join(__dirname, '/public')));
+// API's routes
+
 
 
 // Add listener on application
