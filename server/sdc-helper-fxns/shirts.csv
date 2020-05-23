@@ -1,0 +1,101 @@
+id,name,price,sale_price,picture,description,stock,size,likes
+1,Adidas impactful,413.71,351.65,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Quia et exercitationem quo molestiae cum doloribus.,0,small,true
+2,Adidas viral,373.58,317.54,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Non ut quae.,1,large,false
+3,Adidas strategic,327.75,278.59,,Modi iure dicta.,1,,false
+4,Adidas robust,409.02,347.67,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Ipsum deserunt harum.,1,x-small,false
+5,Adidas strategic,416.48,354.01,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Voluptatem deserunt nemo amet possimus quis ea.,1,,true
+6,Adidas open-source,371.43,315.72,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Vitae nulla harum aliquam.,1,small,true
+7,Adidas sticky,421.08,357.92,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Est esse molestias modi fuga fugit maxime maxime voluptates.,1,large,true
+8,Adidas back-end,224.14,190.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Nihil voluptas earum incidunt consequuntur.,0,,false
+9,Adidas clicks-and-mortar,389.19,330.81,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Explicabo a placeat eaque voluptas eaque.,0,small,false
+10,Adidas extensible,288.85,245.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Dolor dicta voluptatem nesciunt quae porro est fugit voluptatem.,0,medium,true
+11,Adidas strategic,230.08,195.57,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Quia aut aut est ea nisi.,1,,false
+12,Adidas cutting-edge,220.98,187.83,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Velit earum cumque maiores aliquam consequatur.,1,small,true
+13,Adidas user-centric,160.09,136.08,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Cum aut temporibus tenetur aut aut quam ad ea cumque.,0,small,false
+14,Adidas end-to-end,63.26,53.77,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Suscipit velit mollitia ad magnam ex harum.,1,x-small,false
+15,Adidas visionary,155.90,132.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Laborum eos debitis.,1,medium,false
+16,Adidas granular,285.57,242.73,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Accusantium hic nesciunt.,0,small,true
+17,Adidas enterprise,288.35,245.1,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Qui sint nobis cumque quia.,0,x-small,false
+18,Adidas extensible,400.44,340.37,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Magnam est sit sunt blanditiis.,0,x-small,false
+19,Adidas efficient,450.79,383.17,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Quia et doloremque voluptas culpa illo expedita culpa et.,0,x-large,false
+20,Adidas B2C,166.41,141.45,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Occaecati animi dolorem et consectetur reiciendis libero sit quia.,1,small,true
+21,Adidas compelling,393.81,334.74,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Soluta delectus architecto voluptas.,0,x-small,false
+22,Adidas impactful,78.85,67.02,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Officiis iste dolorum magnam in.,1,small,true
+23,Adidas world-class,301.13,255.96,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Ab quasi ut sit nostrum numquam dignissimos exercitationem ratione.,1,,false
+24,Adidas 24/365,110.28,93.74,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Maiores saepe molestias soluta ex debitis explicabo corporis.,0,,false
+25,Adidas clicks-and-mortar,103.06,87.6,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Necessitatibus ullam omnis nobis et veritatis qui.,1,large,false
+26,Adidas synergistic,430.63,366.04,,Tenetur incidunt doloribus.,1,,false
+27,Adidas dynamic,419.18,356.3,,Porro est reiciendis error sed repellat et optio laborum.,1,small,false
+28,Adidas next-generation,199.93,169.94,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Animi quidem officiis voluptate molestiae.,0,small,true
+29,Adidas value-added,274.11,232.99,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Et commodi nulla aut praesentium est occaecati eos tenetur.,1,large,true
+30,Adidas seamless,100.67,85.57,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Assumenda necessitatibus enim nobis est veritatis sit illum.,0,large,true
+31,Adidas virtual,42.09,35.78,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Distinctio explicabo quia doloremque.,1,x-large,true
+32,Adidas clicks-and-mortar,152.80,129.88,,Ut placeat est quis.,0,x-large,true
+33,Adidas impactful,82.31,69.96,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Inventore tempora laudantium porro assumenda veritatis ut.,0,medium,true
+34,Adidas value-added,130.93,111.29,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Vero corporis qui qui.,1,medium,true
+35,Adidas extensible,159.48,135.56,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Distinctio dolore minus nobis rerum illum autem impedit sunt atque.,0,x-small,false
+36,Adidas B2C,132.45,112.58,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Vitae nihil quia suscipit rerum optio et iure.,0,x-small,true
+37,Adidas 24/7,312.09,265.28,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Autem facere excepturi est laborum ullam illum minima commodi vel.,0,large,false
+38,Adidas 24/7,397.01,337.46,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Velit sit deserunt.,1,small,false
+39,Adidas B2B,433.74,368.68,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Et aspernatur quod.,0,x-large,false
+40,Adidas distributed,391.99,333.19,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Earum magnam labore reiciendis et sint et.,0,x-small,true
+41,Adidas integrated,232.44,197.57,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Et tempora maxime est magnam.,0,medium,true
+42,Adidas strategic,479.36,407.46,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Qui blanditiis temporibus autem enim recusandae harum labore odit voluptatem.,0,x-small,true
+43,Adidas strategic,438.04,372.33,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Velit laboriosam aliquid dolorem.,0,large,true
+44,Adidas virtual,153.83,130.76,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Et debitis autem.,1,x-small,true
+45,Adidas value-added,494.10,419.99,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Quibusdam vel libero et omnis perspiciatis vel quia provident fuga.,1,small,true
+46,Adidas dynamic,248.05,210.84,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Rerum ducimus et molestiae atque id commodi facilis.,1,small,true
+47,Adidas clicks-and-mortar,301.37,256.16,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Voluptas sed quidem numquam omnis perspiciatis.,1,large,true
+48,Adidas innovative,251.99,214.19,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Minima doloribus officiis eos.,0,x-large,true
+49,Adidas viral,128.99,109.64,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Magni ab consequatur adipisci sunt.,0,medium,false
+50,Adidas bleeding-edge,184.54,156.86,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Facere exercitationem commodi.,0,x-small,false
+51,Adidas intuitive,488.43,415.17,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Dolor sint quia sapiente.,1,small,false
+52,Adidas strategic,243.53,207,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Facere placeat ullam in corporis atque odit error quaerat.,1,medium,false
+53,Adidas innovative,38.21,32.48,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Mollitia molestiae expedita hic ducimus et adipisci atque.,1,large,true
+54,Adidas web-enabled,72.31,61.46,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Soluta id ut voluptatum ullam consequatur aliquam.,0,,false
+55,Adidas extensible,302.82,257.4,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Veniam quis placeat nam itaque doloribus enim eos consequatur.,1,small,false
+56,Adidas cross-platform,164.76,140.05,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Provident doloribus error eligendi error.,1,large,true
+57,Adidas ubiquitous,333.32,283.32,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Quia dolore blanditiis alias facilis expedita.,0,,true
+58,Adidas one-to-one,261.27,222.08,,Autem nam et labore.,0,medium,true
+59,Adidas sexy,401.75,341.49,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Vel odio inventore animi nostrum nam.,0,x-small,false
+60,Adidas user-centric,29.36,24.96,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Magni odit omnis sed alias animi ducimus.,1,x-small,false
+61,Adidas clicks-and-mortar,180.49,153.42,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Et beatae architecto.,0,small,true
+62,Adidas cross-platform,497.21,422.63,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Eos unde veritatis occaecati aliquam rerum qui repudiandae.,1,large,true
+63,Adidas mission-critical,429.61,365.17,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Eum provident cupiditate omnis dignissimos veritatis.,0,x-small,true
+64,Adidas vertical,479.96,407.97,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Beatae totam dignissimos harum non eaque dolorem magnam.,1,,false
+65,Adidas plug-and-play,76.32,64.87,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Fuga nihil quidem veritatis facilis et atque.,0,medium,false
+66,Adidas wireless,420.63,357.54,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Hic veritatis eveniet dolor in aut ut.,1,large,true
+67,Adidas extensible,370.84,315.21,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Accusamus consequatur aspernatur et quisquam autem.,1,large,false
+68,Adidas value-added,352.45,299.58,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Saepe aut exercitationem temporibus ea qui distinctio a voluptate asperiores.,1,x-small,true
+69,Adidas global,60.64,51.54,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Ea dignissimos soluta.,1,medium,true
+70,Adidas 24/365,460.60,391.51,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Eaque repellendus earum et harum error minima quo quisquam.,0,,true
+71,Adidas world-class,350.84,298.21,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Ea est quam ipsum nihil nemo ipsam porro.,0,medium,true
+72,Adidas customized,307.34,261.24,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,In vitae deserunt eveniet autem distinctio ratione.,1,x-small,true
+73,Adidas cross-platform,98.69,83.89,,Facilis non quas voluptas sequi facere expedita.,1,small,true
+74,Adidas open-source,267.07,227.01,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Sint sit omnis natus sequi eum alias.,0,x-small,true
+75,Adidas efficient,72.07,61.26,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Dolor temporibus itaque cupiditate eaque sapiente totam illum accusamus voluptas.,1,small,false
+76,Adidas virtual,269.31,228.91,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Tempore impedit unde ut qui voluptatem odio dolores.,0,x-large,false
+77,Adidas collaborative,151.67,128.92,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Sit modi magnam qui ut assumenda omnis non.,0,x-large,true
+78,Adidas robust,193.38,164.37,,Voluptates facere consequuntur voluptatem cum molestiae aliquid.,0,medium,true
+79,Adidas impactful,35.84,30.46,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Quos hic minima rerum.,1,x-large,false
+80,Adidas B2B,446.78,379.76,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Sunt in facere autem reiciendis et molestias impedit.,1,small,true
+81,Adidas visionary,227.92,193.73,,Beatae sequi nulla mollitia sapiente dolores nesciunt ut.,0,,false
+82,Adidas dynamic,149.17,126.79,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Et nihil ut ut atque ad ducimus aut et nihil.,0,large,false
+83,Adidas 24/7,402.92,342.48,,Labore quas soluta nemo.,0,small,false
+84,Adidas leading-edge,94.04,79.93,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Aut accusantium numquam tempora.,1,medium,true
+85,Adidas dynamic,128.23,109,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Harum tenetur quaerat corrupti tempore illo reiciendis qui nobis.,0,large,false
+86,Adidas turn-key,319.49,271.57,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Illo velit placeat ipsam.,1,small,true
+87,Adidas next-generation,297.65,253,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,Voluptas in voluptatem omnis et et nisi.,1,x-small,false
+88,Adidas proactive,121.91,103.62,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Molestiae corporis autem explicabo et nesciunt quia.,0,small,true
+89,Adidas user-centric,155.99,132.59,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Dolorem earum ratione doloribus facere iusto autem eos quis.,1,medium,true
+90,Adidas virtual,361.79,307.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Sint delectus et et deserunt inventore ea.,0,x-large,false
+91,Adidas impactful,181.46,154.24,,Aspernatur quia nesciunt velit est eum laborum.,0,x-small,true
+92,Adidas end-to-end,459.51,390.58,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Doloribus velit iure vel praesentium.,1,x-large,true
+93,Adidas synergistic,265.17,225.39,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Enim minima qui quam dicta et quis sit voluptate.,0,x-large,true
+94,Adidas killer,249.46,212.04,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg,Soluta explicabo et consequatur blanditiis maiores est laboriosam perferendis.,1,large,true
+95,Adidas frictionless,83.95,71.36,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Ultimate365_Badge_of_Sport_Polo_Shirt_White_FJ9828_21_model.jpg,Commodi esse in enim veritatis atque eum non et.,1,x-small,true
+96,Adidas virtual,291.24,247.55,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Ut omnis facere necessitatibus odit voluptas.,0,,true
+97,Adidas rich,53.23,45.25,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Primeblue_Singlet_Grey_FJ6828_21_model.jpg,Nisi aut enim magnam quos nisi voluptas vero doloremque earum.,1,large,true
+98,Adidas dynamic,383.97,326.37,,Autem officiis nisi nihil nihil optio.,0,x-small,true
+99,Adidas mission-critical,66.67,56.67,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Must_Haves_Graphic_Tee_Blue_FQ6216_21_model.jpg,Ipsum odit rem id reiciendis quasi enim quas tempore.,1,x-large,true
+100,Adidas cross-media,371.02,315.37,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg,In tempore sed laborum quia incidunt adipisci voluptas voluptate.,0,small,true

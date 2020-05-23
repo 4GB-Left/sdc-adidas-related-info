@@ -1,0 +1,101 @@
+id,name,price,sale_price,picture,description,stock,size,likes
+1,Adidas B2B,298.17,253.44,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Molestiae cumque quos numquam expedita et.,1,x-small,false
+2,Adidas value-added,285.81,242.94,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,At adipisci et ipsam ut reiciendis.,0,x-small,true
+3,Adidas compelling,59.32,50.42,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Corrupti quam alias quidem ut velit.,1,small,true
+4,Adidas seamless,409.94,348.45,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Aut omnis tempora sint at dicta voluptatem suscipit.,0,small,false
+5,Adidas proactive,175.20,148.92,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Qui quis magni id dolor aperiam repellat hic.,0,medium,false
+6,Adidas integrated,370.64,315.04,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Perferendis totam rerum.,0,small,true
+7,Adidas enterprise,155.57,132.23,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Eum aut id temporibus ut assumenda.,1,,false
+8,Adidas holistic,124.12,105.5,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Vel atque qui iusto.,1,large,true
+9,Adidas cross-media,307.44,261.32,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Ducimus eum repellat laborum quia et sunt adipisci dolores iste.,1,medium,true
+10,Adidas 24/7,169.57,144.13,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Autem quis aut eum laudantium animi ut quibusdam quod.,1,x-small,true
+11,Adidas intuitive,91.66,77.91,,Dicta exercitationem at consectetur.,1,,false
+12,Adidas turn-key,457.61,388.97,,Voluptatem et incidunt architecto cum id.,0,medium,true
+13,Adidas rich,251.59,213.85,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Quos eveniet dignissimos aperiam aliquid.,1,x-small,false
+14,Adidas user-centric,443.65,377.1,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Dignissimos commodi nisi eligendi.,1,large,true
+15,Adidas turn-key,108.64,92.34,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Qui aliquam qui et nulla iusto vero aperiam.,0,x-large,true
+16,Adidas frictionless,126.66,107.66,,Dolor reiciendis in facere non ut.,1,x-large,true
+17,Adidas global,232.92,197.98,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Adipisci cum temporibus quis rerum vel.,1,,false
+18,Adidas synergistic,106.54,90.56,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Doloremque impedit excepturi enim dolorem.,0,small,true
+19,Adidas efficient,462.13,392.81,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Ut ut architecto maiores.,1,x-large,false
+20,Adidas one-to-one,178.32,151.57,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Optio et aspernatur sequi perspiciatis qui.,0,small,true
+21,Adidas global,191.81,163.04,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Ut cum incidunt in iste animi inventore eum quibusdam placeat.,1,medium,false
+22,Adidas plug-and-play,295.43,251.12,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Molestiae sunt suscipit neque.,1,x-large,true
+23,Adidas end-to-end,310.12,263.6,,Temporibus illum accusantium in et et.,0,x-large,false
+24,Adidas sticky,319.89,271.91,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Incidunt beatae rem.,0,,false
+25,Adidas frictionless,306.81,260.79,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Et voluptates voluptatem eum.,1,x-small,true
+26,Adidas B2C,405.63,344.79,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Et ullam quaerat rerum magni odit voluptas eaque voluptas.,0,large,false
+27,Adidas bricks-and-clicks,343.45,291.93,,Ratione dolore omnis tempore odit.,0,x-large,true
+28,Adidas web-enabled,224.10,190.49,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Ut asperiores sed debitis dolor perferendis possimus sequi in.,1,x-large,false
+29,Adidas B2B,401.39,341.18,,Culpa sint veniam est eius.,0,small,true
+30,Adidas rich,421.22,358.04,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Reprehenderit est modi.,1,large,true
+31,Adidas bleeding-edge,430.55,365.97,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Odit doloribus esse in corporis ab sed aut.,0,small,true
+32,Adidas transparent,316.35,268.9,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Consequatur accusamus nam et nulla quia quasi tempore earum.,0,large,false
+33,Adidas next-generation,361.54,307.31,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Sunt eos soluta necessitatibus delectus maxime.,1,large,true
+34,Adidas back-end,168.37,143.11,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Amet vitae atque qui facere amet eius sed.,1,x-large,true
+35,Adidas dynamic,225.47,191.65,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Illo non enim saepe et nisi quis.,0,small,false
+36,Adidas B2B,149.90,127.42,,Dolorum odio laborum cumque.,0,large,false
+37,Adidas holistic,354.92,301.68,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Similique sed laudantium.,1,large,true
+38,Adidas frictionless,196.55,167.07,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Dolorem unde ipsa enim consequatur accusantium quia pariatur.,1,large,true
+39,Adidas killer,228.41,194.15,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Temporibus deleniti quo et totam esse totam.,1,x-large,false
+40,Adidas viral,245.24,208.45,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Minima quia est repellendus reiciendis nesciunt quas nemo aut.,1,x-small,false
+41,Adidas e-business,426.40,362.44,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Non numquam est quaerat.,1,x-large,false
+42,Adidas robust,452.23,384.4,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Aut eos voluptatum error natus odio odit id sunt qui.,0,,false
+43,Adidas front-end,400.80,340.68,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Iste corrupti ad autem velit ipsa voluptatibus nisi.,0,x-large,false
+44,Adidas wireless,440.35,374.3,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Quasi minus consectetur temporibus doloremque rerum voluptatem eius nihil placeat.,1,large,true
+45,Adidas frictionless,61.24,52.05,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Aspernatur error officia soluta eius.,1,x-small,false
+46,Adidas wireless,455.40,387.09,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Aperiam magni quis et porro qui ad quis consectetur praesentium.,1,,false
+47,Adidas cross-media,374.30,318.16,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Aspernatur non animi suscipit cum est aspernatur.,0,,false
+48,Adidas seamless,304.55,258.87,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Rem vitae voluptate suscipit perspiciatis sapiente consequatur voluptatem eum.,0,small,false
+49,Adidas back-end,140.89,119.76,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Impedit libero totam et consequatur omnis.,0,large,true
+50,Adidas vertical,467.21,397.13,,Sunt voluptas totam.,1,medium,false
+51,Adidas scalable,379.43,322.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Qui placeat nam voluptates qui rerum molestias qui veritatis.,0,small,false
+52,Adidas end-to-end,361.54,307.31,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Molestiae sit similique eius ipsa placeat dolores libero et.,0,medium,true
+53,Adidas e-business,25.57,21.73,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Nisi earum nostrum est et.,1,x-small,false
+54,Adidas ubiquitous,30.19,25.66,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Dolores enim a laborum dolores.,0,large,false
+55,Adidas granular,283.27,240.78,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Quo quos ratione.,0,medium,true
+56,Adidas synergistic,114.94,97.7,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Dolores ex reiciendis aperiam dicta eum similique quis dolor pariatur.,1,x-small,false
+57,Adidas best-of-breed,380.61,323.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Maiores dolore repellat ut quia maiores magni ad occaecati consequatur.,1,large,false
+58,Adidas bricks-and-clicks,223.14,189.67,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Temporibus ipsum officiis ut ut facere ex quos nihil adipisci.,1,medium,true
+59,Adidas global,117.39,99.78,,Odio consequatur rem cumque facilis maiores tempore ad.,0,large,true
+60,Adidas cross-media,378.27,321.53,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Est voluptatum voluptatibus corrupti ut numquam autem qui corrupti.,0,x-large,true
+61,Adidas clicks-and-mortar,295.00,250.75,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Quisquam deserunt numquam est quaerat.,1,medium,false
+62,Adidas magnetic,40.16,34.14,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Eos molestiae distinctio nam aperiam.,0,small,true
+63,Adidas open-source,310.71,264.1,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Nam facere et perspiciatis quam.,1,x-small,false
+64,Adidas intuitive,145.77,123.9,,Sit sit magni hic et asperiores voluptas voluptatum amet veritatis.,1,x-small,false
+65,Adidas viral,262.97,223.52,,Voluptas ut dolores.,1,x-small,true
+66,Adidas proactive,480.99,408.84,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Qui autem eligendi qui est et in voluptatibus ipsum.,1,x-large,true
+67,Adidas bricks-and-clicks,255.13,216.86,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Rem expedita ex magnam nostrum sunt facilis odit quo.,1,large,true
+68,Adidas one-to-one,391.93,333.14,,Adipisci velit culpa nemo possimus cumque quia aperiam.,0,x-large,false
+69,Adidas dot-com,35.49,30.17,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Et facilis doloribus molestiae vel nemo nam aliquid asperiores voluptates.,1,large,false
+70,Adidas frictionless,402.92,342.48,,Sed fugit facere sed optio quo doloribus ipsa.,0,,false
+71,Adidas visionary,108.45,92.18,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Doloremque totam numquam vitae enim numquam soluta similique iste doloremque.,0,large,true
+72,Adidas leading-edge,103.14,87.67,,Quasi eum ipsum et eligendi.,1,x-large,false
+73,Adidas customized,376.74,320.23,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Velit consectetur perferendis excepturi hic ratione sit quis doloremque facilis.,0,small,true
+74,Adidas proactive,487.82,414.65,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Tempora voluptatem nulla vel qui impedit laborum.,1,medium,true
+75,Adidas customized,479.10,407.24,,Aliquid aliquam aut voluptatum ipsam.,1,small,true
+76,Adidas enterprise,28.34,24.09,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Cum voluptatem ipsa quaerat distinctio distinctio illo enim.,1,small,true
+77,Adidas scalable,297.77,253.1,,Est dolores minima voluptatem sed quia aliquid minus blanditiis enim.,0,small,false
+78,Adidas holistic,463.64,394.09,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Voluptatum qui ipsum natus aut iusto dicta sed corrupti rerum.,1,x-small,false
+79,Adidas compelling,289.83,246.36,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Dolore minima corrupti incidunt rerum id quaerat dicta officia.,0,x-small,false
+80,Adidas bricks-and-clicks,359.18,305.3,,Aut molestiae cumque sunt debitis beatae est similique hic velit.,1,,true
+81,Adidas seamless,459.87,390.89,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Laboriosam doloribus labore doloremque et sit dolor animi.,1,large,true
+82,Adidas integrated,210.47,178.9,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Provident commodi qui eaque sequi non accusantium dolores.,0,small,true
+83,Adidas out-of-the-box,167.31,142.21,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Enim rem hic itaque ducimus qui aut placeat qui.,0,large,false
+84,Adidas one-to-one,269.07,228.71,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Dignissimos ratione et dignissimos et corporis.,0,x-small,true
+85,Adidas robust,446.18,379.25,,Facilis animi culpa cumque et aut doloribus.,1,medium,true
+86,Adidas visionary,110.17,93.64,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg,Dolor fugiat enim qui ipsa ea dolor quaerat.,0,x-small,true
+87,Adidas B2B,179.74,152.78,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Commodi ut nisi sint debitis quia dicta ipsa.,0,small,false
+88,Adidas impactful,352.96,300.02,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Eaque autem qui enim dolorem alias.,1,x-large,false
+89,Adidas frictionless,73.11,62.14,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Quos eum totam sunt nobis eius voluptas perspiciatis deserunt.,1,x-large,true
+90,Adidas holistic,440.05,374.04,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Corporis nam aut sit delectus autem tenetur soluta non.,0,x-large,true
+91,Adidas extensible,27.76,23.6,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg,Delectus soluta perspiciatis culpa eos pariatur.,1,small,false
+92,Adidas user-centric,341.29,290.1,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg,Ad rem ipsam atque accusantium.,0,medium,true
+93,Adidas compelling,99.98,84.98,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Necessitatibus eum a modi ratione velit cum.,1,x-small,true
+94,Adidas one-to-one,76.82,65.3,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Shorts_Green_FL5831_21_model.jpg,Eveniet voluptatum quos sequi.,1,x-large,true
+95,Adidas value-added,349.51,297.08,,Provident cupiditate libero saepe quia accusantium animi expedita.,0,x-small,true
+96,Adidas next-generation,335.42,285.11,,Voluptas impedit ex architecto mollitia veritatis reiciendis optio.,1,x-small,false
+97,Adidas synergistic,72.63,61.74,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Rerum enim iusto.,0,large,true
+98,Adidas viral,199.39,169.48,,Ut velit hic fugit quia molestiae est.,1,x-small,true
+99,Adidas out-of-the-box,77.31,65.71,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Voluptatem autem perferendis sint praesentium molestias nobis.,0,,false
+100,Adidas collaborative,387.23,329.15,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg,Ducimus et quia reiciendis aliquam aspernatur alias quae et rerum.,0,x-small,true

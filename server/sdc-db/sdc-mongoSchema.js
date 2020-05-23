@@ -5,6 +5,7 @@ const shirtsSchema = new mongoose.Schema({
   id: Number,
   name: String,
   price: Number,
+  picture: String,
   sizes: {type: String, enum: ['x-small', 'small', 'medium', 'large', 'x-large']},
   stock: Number
 };
@@ -15,6 +16,7 @@ const pantsSchema = new mongoose.Schema({
   id: Number,
   name: String,
   price: Number,
+  picture: String,
   sizes: {type: String, enum: ['x-small', 'small', 'medium', 'large', 'x-large']},
   stock: Number
 };
@@ -25,12 +27,14 @@ const socksSchema = new mongoose.Schema({
   id: Number,
   name: String,
   price: Number,
+  picture: String,
   sizes: {type: String, enum: ['x-small', 'small', 'medium', 'large', 'x-large']},
   stock: Number
 };
 const socksModel = mongoose.model('Socks', socksSchema);
 
 // related product schema and model
+// NOTE: 12 PER LOOKS
 const relatedProductSchema = new mongoose.Schema({
   id: Number,
   name: String,
@@ -44,6 +48,7 @@ const relatedProductSchema = new mongoose.Schema({
 const relatedProductModel = mongoose.model('relatedProduct', relatedProductSchema);
 
 // completTheLook schema and model
+// ~3.3 shirts, pants and socks
 const completeTheLook = new mongoose.Schema({
     id: Number,
     shirts: {type: Schema.ObjectId, ref: 'shirtsModel'},
@@ -54,3 +59,6 @@ const completeTheLook = new mongoose.Schema({
 const CompleteTheLook = mongoose.model('CompleteTheLook', completeTheLook);
 
 module.exports.CompleteTheLook = CompleteTheLook;
+
+
+// RAW data: 1M(looks) * 3.3M(of each product type) + 10M = 25M

@@ -1,0 +1,101 @@
+id,name,price,sale_price,picture,description,stock,size,likes
+1,Adidas sticky,337.96,287.27,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Voluptatum beatae qui qui porro aut aut natus.,0,,false
+2,Adidas enterprise,119.76,101.8,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Earum tenetur aliquid.,1,,true
+3,Adidas holistic,196.50,167.03,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Esse autem expedita.,1,large,false
+4,Adidas turn-key,247.58,210.44,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Et quidem labore est aspernatur velit non corrupti at.,1,x-small,false
+5,Adidas 24/365,116.25,98.81,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Enim iste et consequatur alias.,0,,false
+6,Adidas killer,59.38,50.47,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Nesciunt cumque explicabo et qui.,0,,true
+7,Adidas collaborative,369.17,313.79,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Qui eum aliquid.,1,small,true
+8,Adidas e-business,70.22,59.69,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Eius eum enim sit esse qui totam nemo at.,0,small,false
+9,Adidas extensible,113.05,96.09,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Aut labore ut sunt.,1,large,false
+10,Adidas sexy,261.66,222.41,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Rem perspiciatis omnis sint officiis facilis officia maxime.,0,,false
+11,Adidas best-of-breed,466.37,396.41,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Qui tenetur pariatur ipsa occaecati.,0,x-small,true
+12,Adidas real-time,159.69,135.74,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Necessitatibus ipsa qui dolorem.,1,large,false
+13,Adidas web-enabled,105.25,89.46,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Autem voluptatem unde unde.,0,large,true
+14,Adidas compelling,132.81,112.89,,Necessitatibus mollitia enim.,0,x-small,true
+15,Adidas transparent,277.64,235.99,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Qui quia ipsam quis delectus asperiores sed odit tenetur.,0,medium,true
+16,Adidas global,315.00,267.75,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Officiis saepe excepturi.,1,,true
+17,Adidas impactful,24.41,20.75,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Omnis perferendis ratione rerum ut et facere alias nostrum rem.,0,medium,true
+18,Adidas turn-key,118.28,100.54,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Eveniet quibusdam culpa rerum ipsam qui et.,1,medium,true
+19,Adidas bricks-and-clicks,125.37,106.56,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Aut numquam molestias cumque.,0,,true
+20,Adidas next-generation,358.97,305.12,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Voluptates et doloremque nihil.,1,x-large,false
+21,Adidas back-end,333.35,283.35,,Sequi in voluptas.,0,large,false
+22,Adidas granular,217.82,185.15,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Dolores et dicta optio nihil.,0,x-large,false
+23,Adidas one-to-one,382.61,325.22,,Ullam consequatur illo debitis.,1,small,false
+24,Adidas real-time,72.56,61.68,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Minima iure quia.,1,x-small,true
+25,Adidas magnetic,103.98,88.38,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Praesentium veritatis recusandae rem et amet dicta molestiae.,1,medium,true
+26,Adidas real-time,83.11,70.64,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Autem omnis et ea.,0,medium,true
+27,Adidas transparent,171.72,145.96,,Natus qui ut suscipit.,0,,true
+28,Adidas transparent,116.79,99.27,,Quasi mollitia aliquid numquam inventore maxime magni nam cupiditate nesciunt.,1,x-large,true
+29,Adidas sexy,176.36,149.91,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Iste natus aut porro.,1,,false
+30,Adidas end-to-end,294.58,250.39,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Aut voluptatum accusantium est perspiciatis doloribus esse.,1,x-small,false
+31,Adidas sexy,56.54,48.06,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Sed eligendi fugit.,1,,true
+32,Adidas interactive,472.48,401.61,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Placeat alias veniam magnam facere vel velit consequuntur laudantium laudantium.,1,small,false
+33,Adidas out-of-the-box,325.16,276.39,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Est qui vel ut velit.,0,x-large,false
+34,Adidas scalable,236.19,200.76,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Dolores et impedit maxime quo suscipit.,0,x-large,false
+35,Adidas web-enabled,446.42,379.46,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Consequatur odio ipsa est amet enim.,0,small,true
+36,Adidas B2B,443.53,377,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Corporis quos nam.,1,x-large,false
+37,Adidas frictionless,20.85,17.72,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Consequatur ratione ut ex non.,1,x-large,true
+38,Adidas revolutionary,434.45,369.28,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Ad rerum quis.,0,small,false
+39,Adidas 24/7,75.30,64,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Vitae vero voluptas repellendus ut ea labore veritatis voluptates aut.,1,small,true
+40,Adidas innovative,47.31,40.21,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Eum blanditiis a sequi consectetur.,1,,true
+41,Adidas leading-edge,255.24,216.95,,Quam consectetur quia alias est sunt odit.,0,small,false
+42,Adidas granular,238.55,202.77,,Voluptatem modi expedita consequatur est quia id facere.,1,x-large,true
+43,Adidas proactive,86.69,73.69,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Consequatur soluta aut est dolorem odio aut.,1,x-small,false
+44,Adidas compelling,240.14,204.12,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Non dolorum eaque.,0,small,true
+45,Adidas viral,359.56,305.63,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Assumenda cupiditate quo nobis fugiat.,0,small,false
+46,Adidas impactful,468.92,398.58,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Qui rem vero voluptates qui.,0,x-small,true
+47,Adidas e-business,315.25,267.96,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Sequi optio quia et sint.,1,medium,true
+48,Adidas collaborative,196.76,167.25,,Harum explicabo dolorum eum voluptate earum quia et cum autem.,0,large,true
+49,Adidas wireless,391.06,332.4,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Assumenda harum voluptates ratione.,0,,false
+50,Adidas turn-key,123.93,105.34,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Omnis accusantium minus recusandae asperiores.,0,large,true
+51,Adidas real-time,110.38,93.82,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Mollitia alias sunt quaerat aperiam occaecati culpa nesciunt et.,0,large,true
+52,Adidas world-class,177.71,151.05,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Minus nostrum incidunt quo perspiciatis beatae.,0,small,false
+53,Adidas bricks-and-clicks,494.76,420.55,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Doloremque hic et qui est.,1,small,false
+54,Adidas 24/7,400.56,340.48,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Amet corporis dicta tempora.,1,large,false
+55,Adidas B2B,478.46,406.69,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Doloribus quia molestias occaecati tenetur repudiandae.,0,large,false
+56,Adidas seamless,192.86,163.93,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Possimus officiis et fugit voluptatem accusamus perferendis officia debitis.,1,small,false
+57,Adidas integrated,167.82,142.65,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Nihil neque aliquam sapiente possimus qui.,0,medium,false
+58,Adidas dot-com,272.50,231.63,,Pariatur totam animi.,1,small,false
+59,Adidas 24/365,345.17,293.39,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Odio culpa pariatur iusto dolorem error alias sed.,1,small,false
+60,Adidas synergistic,66.62,56.63,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Velit animi aperiam ut mollitia rerum.,1,,false
+61,Adidas compelling,249.25,211.86,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Consequatur accusantium cum quibusdam repellendus ullam cumque culpa nemo.,0,large,false
+62,Adidas enterprise,230.00,195.5,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Quas et omnis molestiae.,1,x-small,true
+63,Adidas holistic,405.86,344.98,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Aut quia deserunt explicabo.,0,x-small,true
+64,Adidas cross-platform,275.42,234.11,,Et earum sit.,1,large,false
+65,Adidas web-enabled,427.39,363.28,,Explicabo quo consectetur praesentium culpa quia iure eius veritatis quibusdam.,0,,false
+66,Adidas efficient,485.32,412.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Asperiores consequuntur in sit et aut consequatur voluptatibus aut.,0,medium,false
+67,Adidas revolutionary,401.02,340.87,,Quis magni doloremque nobis quia assumenda laboriosam quam enim ut.,0,small,false
+68,Adidas holistic,388.36,330.11,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Quisquam maiores id dolorum aut.,0,large,true
+69,Adidas bleeding-edge,274.20,233.07,,Optio voluptatem repellat nobis mollitia occaecati et natus.,0,,true
+70,Adidas 24/365,338.97,288.12,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Repudiandae autem quia quasi voluptatem laborum ipsam sit tempore laborum.,0,,true
+71,Adidas virtual,233.12,198.15,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Minima qui optio.,1,x-large,true
+72,Adidas ubiquitous,195.29,166,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Voluptates hic pariatur numquam soluta quis voluptatibus non.,1,small,true
+73,Adidas B2C,283.21,240.73,,Exercitationem quasi praesentium illum et placeat iusto dolor.,0,medium,true
+74,Adidas synergistic,412.82,350.9,,Eligendi cumque quibusdam veniam earum molestiae fugiat cumque fuga alias.,1,medium,false
+75,Adidas killer,415.85,353.47,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Facere magnam perspiciatis.,1,x-large,false
+76,Adidas granular,499.63,424.69,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Sit qui id veniam.,0,medium,true
+77,Adidas world-class,345.70,293.84,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Possimus quia amet possimus qui voluptatem quas.,0,small,true
+78,Adidas frictionless,166.69,141.69,,Cumque non ut consequatur.,1,small,true
+79,Adidas vertical,415.96,353.57,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Illo aut praesentium qui voluptatem iste.,1,medium,false
+80,Adidas 24/7,401.89,341.61,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Beatae recusandae nesciunt tenetur rerum rerum autem aspernatur quae dolore.,0,large,true
+81,Adidas front-end,474.57,403.38,,Vitae quaerat deleniti doloribus tempore eius vitae ducimus sequi.,1,x-large,false
+82,Adidas ubiquitous,370.02,314.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Eius ex aut id.,0,large,false
+83,Adidas customized,339.39,288.48,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Velit sit cupiditate deleniti dolorem officia deleniti dolorem aperiam placeat.,0,x-small,true
+84,Adidas interactive,394.23,335.1,,Corrupti non non animi.,1,,false
+85,Adidas dot-com,398.25,338.51,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Culpa unde officiis.,0,small,false
+86,Adidas revolutionary,304.80,259.08,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Eius et eveniet labore inventore.,0,small,false
+87,Adidas interactive,271.25,230.56,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Blanditiis necessitatibus deleniti.,1,x-large,false
+88,Adidas 24/7,266.49,226.52,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Sed sint rerum minus quibusdam.,1,large,true
+89,Adidas one-to-one,374.78,318.56,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Repudiandae voluptatum et aut suscipit enim enim magni autem eos.,0,x-small,false
+90,Adidas end-to-end,195.38,166.07,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/4D_Run_1.0_Shoes_White_FW1233_01_standard.jpg,Itaque id corporis est iste quia eius quibusdam.,1,medium,true
+91,Adidas efficient,321.21,273.03,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Et molestias eligendi.,0,large,false
+92,Adidas bricks-and-clicks,458.08,389.37,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,Incidunt qui ducimus soluta culpa.,1,x-large,false
+93,Adidas plug-and-play,316.60,269.11,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Non neque dolores commodi quasi eos vero qui dolor nihil.,0,,true
+94,Adidas extensible,492.17,418.34,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Voluptas minus quia et veritatis dolor quibusdam rem eligendi autem.,1,,true
+95,Adidas collaborative,206.96,175.92,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Adilette_Cloudfoam_Slides_Grey_B42212_01_standard.jpg,Dignissimos porro sed accusamus perspiciatis nostrum sed soluta.,0,x-small,true
+96,Adidas customized,437.91,372.22,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_White_FV7852_01_standard.jpg,Officiis explicabo reiciendis officia omnis.,1,small,false
+97,Adidas magnetic,348.23,296,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Deserunt vero est unde natus.,1,x-large,true
+98,Adidas 24/365,455.71,387.35,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/NMD_R1_Shoes_Black_B42200_01_standard.jpg,Consequatur quis magnam id.,1,small,true
+99,Adidas robust,458.83,390.01,,Rem dignissimos a recusandae id deleniti et quibusdam provident labore.,0,small,true
+100,Adidas compelling,330.97,281.32,https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/related/Swift_Run_Shoes_Blue_EF5441_01_standard.jpg,A magni facilis sapiente.,0,x-small,false

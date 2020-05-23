@@ -59,7 +59,7 @@ The CRUD operation will be consist of a "get" to retrieve the product by product
 
 **Success Status Code:** `204`
 
-**Request Body**: Expects JSON with any of the following keys (include only keys to be updated)
+**Request Body**: Expects JSON with the following keys
 
 ```json
     {
