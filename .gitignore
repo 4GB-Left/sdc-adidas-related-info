@@ -9,3 +9,7 @@ server/db/mysql_config.js
 .jest.config.js.swp
 app.bundle.js
 # public/app.bundle.js
+
+# tempary git ignore the large csv file
+collections-data-csv
+csv-files
