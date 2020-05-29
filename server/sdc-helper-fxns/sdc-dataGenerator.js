@@ -2,8 +2,6 @@ const faker = require('faker');
 const fs = require('fs');
 const csvWriter = require('csv-write-stream');
 
-
-
 const maleTop = [
   'https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_Grey_FL0991_21_model.jpg',
   'https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/top/Cross_Up_365_Hoodie_White_FH7946_23_hover_model.jpg',
@@ -20,7 +18,7 @@ const maleBottom = [
   'https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Zeno_Big_Trefoil_Shorts_Black_GD0984_21_model.jpg'
 ];
 
-const socks = [
+const socksPic = [
   'https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Run_It_3_Stripes_Astro_Pants_Grey_FL6968_25_model.jpg',
   'https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_21_model.jpg',
   'https://sdc-adida-related-info.s3-us-west-1.amazonaws.com/male/bottom/Ultimate365_Classic_Pants_Black_DQ2217_25_model.jpg',
@@ -38,8 +36,8 @@ const relatedProduct = [
 
 const productSizeGobal = ['x-small', 'small', 'medium', 'large', 'x-large'];
 
-// function to generate csv data given the column fields, size of the data
-function GenerateCSV(collection, csvFields, size = 10000000, startTime) {
+// function to generate product csv data given the collection name, desire size and a start time to calculate the total time it take to generate the csv file
+function GenerateCSV(collection, size = 10000000, startTime) {
   let writer = csvWriter();
   let category;
 
@@ -51,9 +49,9 @@ function GenerateCSV(collection, csvFields, size = 10000000, startTime) {
       category = maleBottom;
       break;
     case 'socks':
-      category = socks;
+      category = socksPic;
       break;
-    case 'related':
+    case 'related_products':
       category = relatedProduct;
       break;
     default:
@@ -71,11 +69,34 @@ function GenerateCSV(collection, csvFields, size = 10000000, startTime) {
       name: `Adidas ${faker.company.bsAdjective()}`,
       price: price,
       sale_price: Number((price - price * .15).toFixed(2)),
-      picture: category[faker.random.number({'min': 0, 'max': category.length})],
+      picture: category[faker.random.number({'min': 0, 'max': category.length  - 1})],
       description: faker.lorem.sentence(),
-      stock: faker.random.number(1, 50),
-      size: productSizeGobal[faker.random.number({'min': 0, 'max': productSizeGobal.length})],
+      stock: faker.random.number({'min': 1, 'max': 50}),
+      size: productSizeGobal[i % productSizeGobal.length],
       likes: faker.random.boolean()
+    });
+
+  }
+
+  writer.end();
+
+  console.log(`Finished generating ${collection}.csv. Size: ${size}`)
+  let endTime = process.hrtime(startTime);
+  console.log(`Execution time (hr): ${endTime[0]} sec, ${endTime[1]/1000000} ms\n`);
+}
+
+// function to generate the "complete the looks"
+function completeTheLooks(collection, size = 1000000, productLength = 3500000, startTime) {
+  let writer = csvWriter();
+
+  writer.pipe(fs.createWriteStream(`${collection}.csv`));
+
+  for(let i = 1; i <= size; i++) {
+    writer.write({
+      id: i,
+      shirt_id: faker.random.number({'min': 1, 'max': productLength}),
+      pant_id: faker.random.number({'min': 1, 'max': productLength}),
+      sock_id: faker.random.number({'min': 1, 'max': productLength})
     })
   }
 
@@ -83,9 +104,34 @@ function GenerateCSV(collection, csvFields, size = 10000000, startTime) {
 
   console.log(`Finished generating ${collection}.csv. Size: ${size}`)
   let endTime = process.hrtime(startTime);
-  console.log(`Execution time (hr): ${endTime[0]} sec, ${endTime[1]/1000000} ms`);
+  console.log(`Execution time (hr): ${endTime[0]} sec, ${endTime[1]/1000000} ms\n`);
+
+}
+
+// function to generate relationship table between each set of "complete the look" with related product
+function relationTable(collection, size = 1000000, relatedDataRange, relatedProductQuantity = 12, startTime) {
+  let writer = csvWriter();
+
+  writer.pipe(fs.createWriteStream(`${collection}.csv`));
+
+  for(let i = 1; i <= size; i++) {
+    for(let j = 1; j <= relatedProductQuantity; j++) {
+      writer.write({
+        look_id: i,
+        related_id: faker.random.number({'min': j, 'max': relatedDataRange})
+      })
+    }
+  }
+
+  writer.end();
+
+  console.log(`Finished generating ${collection}.csv. Size: ${size}`)
+  let endTime = process.hrtime(startTime);
+  console.log(`Execution time (hr): ${endTime[0]} sec, ${endTime[1]/1000000} ms\n`);
 }
 
 module.exports = {
-  GenerateCSV
+  GenerateCSV,
+  completeTheLooks,
+  relationTable
 }
