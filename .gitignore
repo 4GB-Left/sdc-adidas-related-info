@@ -13,3 +13,4 @@ app.bundle.js
 # tempary git ignore the large csv file
 collections-data-csv
 csv-files
+newrelic_agent.log
