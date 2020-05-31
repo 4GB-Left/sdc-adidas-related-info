@@ -63,7 +63,18 @@ https://dataschool.com/learn-sql/importing-data-from-csv-in-postgresql/
 ## Syntax to create index in postgres
 ```> CREATE INDEX indx_id ON shirts(id);```
 
+```> CREATE INDEX shirt_id on shirts(shirt_id)```
+```> CREATE INDEX pant_id on pants(pant_id)```
+```> CREATE INDEX sock_id on socks(sock_id)```
+```> CREATE INDEX related_id ON related_products(related_id);```
+```> CREATE INDEX ctl_id on complete_the_look(ctl_id);```
+```> CREATE INDEX look_relation_id ON relation_related_and_looks(look_id);```
+```> CREATE INDEX related_prod_id ON relation_related_and_looks(related_id);```
+
 Explanation: CREATE INDEX <create_name_to_represent_the_field_to_be_index> ON <table_name>(<column_field_name>);
+
+## to delete the index
+```> drop index pants_pkey, ....```
 
 https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan
 
@@ -217,3 +228,11 @@ db.complete_the_look.aggregate([
       $unwind: "$related_products"
     },
   ])
+
+
+## alter the foreign key
+ALTER TABLE complet_the_look add CONSTRAINT FOREIGN KEY(ctl_shirt_id) REFERENCES shirts(shirt_id);
+ALTER TABLE complet_the_look add CONSTRAINT FOREIGN KEY(ctl_pant_id) REFERENCES shirts(pant_id);
+ALTER TABLE complet_the_look add CONSTRAINT FOREIGN KEY(ctl_sock_id) REFERENCES shirts(sock_id);
+ALTER TABLE relation_related_and_looks CONSTRAINT FOREIGN KEY(rrl_look_id) REFERENCES complete_the_look(ctl_id);
+ALTER TABLE relation_related_and_looks CONSTRAINT FOREIGN KEY(rrl_related_id) REFERENCES related_products(related_id);

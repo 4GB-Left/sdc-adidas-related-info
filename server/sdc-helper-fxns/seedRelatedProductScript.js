@@ -10,28 +10,28 @@ const collectionSizes = {
 }
 
 const relatedProductsCollection = fs.createWriteStream(`${__dirname}/csv-files/related_products.csv`,{flags:'w'});
-relatedProductsCollection.write('id,name,price,sale_price,picture,category,description,stock,size,likes\n', 'utf8');
+relatedProductsCollection.write('id,related_name,related_price,related_sale_price,related_picture,related_description,related_stock,related_size,related_likes\n', 'utf8');
 
 function writeMillionOfDataForSocks(writer, encoding, callback) {
   let i = collectionSizes.relatedProductsSize;
-  let id = 0;
+  let related_id = 0;
 
   function write() {
     let ok = true;
 
     do {
       i -= 1;
-      id += 1;
-      let name = `Adidas ${faker.company.bsAdjective()}`;
-      let price = faker.finance.amount(20, 500);
-      let sale_price = Number((price - price * .15).toFixed(2));
-      let picture = relatedProduct[faker.random.number({'min': 0, 'max': relatedProduct.length  - 1})];
-      let description = faker.lorem.sentence();
-      let stock = faker.random.number({'min': 1, 'max': 50});
-      let size = productSizeGobal[i % productSizeGobal.length];
-      let likes = faker.random.boolean();
+      related_id += 1;
+      let related_name = `Adidas ${faker.company.bsAdjective()}`;
+      let related_price = faker.finance.amount(20, 500);
+      let related_sale_price = Number((related_price - related_price * .15).toFixed(2));
+      let related_picture = relatedProduct[faker.random.number({'min': 0, 'max': relatedProduct.length  - 1})];
+      let related_description = faker.lorem.sentence();
+      let related_stock = faker.random.number({'min': 1, 'max': 50});
+      let related_size = productSizeGobal[i % productSizeGobal.length];
+      let related_likes = faker.random.boolean();
 
-      let data = `${id},${name},${price},${sale_price},${picture},${description},${stock},${size},${likes}\n`;
+      let data = `${related_id},${related_name},${related_price},${related_sale_price},${related_picture},${related_description},${related_stock},${related_size},${related_likes}\n`;
 
       if (i === 0) {
         writer.write(data, encoding, callback);

@@ -16,8 +16,8 @@ function relationTable(size = 1000000, relatedDataRange, relatedProductQuantity 
   for(let i = 1; i <= size; i++) {
     for(let j = 1; j <= relatedProductQuantity; j++) {
       writer.write({
-        look_id: i,
-        related_id: faker.random.number({'min': j, 'max': relatedDataRange})
+        rrl_look_id: i,
+        rrl_related_id: faker.random.number({'min': j, 'max': relatedDataRange})
       })
     }
   }

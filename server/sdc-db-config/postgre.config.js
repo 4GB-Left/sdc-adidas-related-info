@@ -8,8 +8,12 @@ const client = new Client({
   port: 5432,
 });
 
-client.connect(() => {
-  console.log('postgres database is connected...\n')
-});
+client.connect()
+  .then(() => {
+    console.log('postgres database is connected...\n')
+  })
+  .catch(e => console.log('Database connection error: ', e))
+
+
 
 module.exports = client;

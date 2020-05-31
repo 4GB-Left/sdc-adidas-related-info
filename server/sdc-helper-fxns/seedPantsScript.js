@@ -8,27 +8,27 @@ const collectionSizes = {
 }
 
 const pantsCollection = fs.createWriteStream(`${__dirname}/csv-files/pants.csv`,{flags:'w'});
-pantsCollection.write('id,name,price,sale_price,picture,category,description,stock,size,likes\n', 'utf8');
+pantsCollection.write('pant_id,pant_name,pant_price,pant_sale_price,pant_picture,pant_description,pant_stock,pant_size,pant_likes\n', 'utf8');
 
 function writeMillionOfDataForPants(writer, encoding, callback) {
   let i = collectionSizes.pants;
-  let id = 0;
+  let pant_id = 0;
 
   function write() {
     let ok = true;
     do {
       i -= 1;
-      id += 1;
-      let name = `Adidas ${faker.company.bsAdjective()}`;
-      let price = faker.finance.amount(20, 500);
-      let sale_price = Number((price - price * .15).toFixed(2));
-      let picture = maleBottom[faker.random.number({'min': 0, 'max': maleBottom.length  - 1})];
-      let description = faker.lorem.sentence();
-      let stock = faker.random.number({'min': 1, 'max': 50});
-      let size = productSizeGobal[i % productSizeGobal.length];
-      let likes = faker.random.boolean();
+      pant_id += 1;
+      let pant_name = `Adidas ${faker.company.bsAdjective()}`;
+      let pant_price = faker.finance.amount(20, 500);
+      let pant_sale_price = Number((pant_price - pant_price * .15).toFixed(2));
+      let pant_picture = maleBottom[faker.random.number({'min': 0, 'max': maleBottom.length  - 1})];
+      let pant_description = faker.lorem.sentence();
+      let pant_stock = faker.random.number({'min': 1, 'max': 50});
+      let pant_size = productSizeGobal[i % productSizeGobal.length];
+      let pant_likes = faker.random.boolean();
 
-      let data = `${id},${name},${price},${sale_price},${picture},${description},${stock},${size},${likes}\n`;
+      let data = `${pant_id},${pant_name},${pant_price},${pant_sale_price},${pant_picture},${pant_description},${pant_stock},${pant_size},${pant_likes}\n`;
 
       if (i === 0) {
         writer.write(data, encoding, callback);

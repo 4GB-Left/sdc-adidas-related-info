@@ -10,28 +10,28 @@ const collectionSizes = {
 }
 
 const socksCollection = fs.createWriteStream(`${__dirname}/csv-files/socks.csv`,{flags:'w'});
-socksCollection.write('id,name,price,sale_price,picture,category,description,stock,size,likes\n', 'utf8');
+socksCollection.write('id,sock_name,sock_price,sock_sale_price,sock_picture,sock_description,sock_stock,sock_size,sock_likes\n', 'utf8');
 
 function writeMillionOfDataForSocks(writer, encoding, callback) {
   let i = collectionSizes.socks;
-  let id = 0;
+  let sock_id = 0;
 
   function write() {
     let ok = true;
 
     do {
       i -= 1;
-      id += 1;
-      let name = `Adidas ${faker.company.bsAdjective()}`;
-      let price = faker.finance.amount(20, 500);
-      let sale_price = Number((price - price * .15).toFixed(2));
-      let picture = socksPic[faker.random.number({'min': 0, 'max': socksPic.length  - 1})];
-      let description = faker.lorem.sentence();
-      let stock = faker.random.number({'min': 1, 'max': 50});
-      let size = productSizeGobal[i % productSizeGobal.length];
-      let likes = faker.random.boolean();
+      sock_id += 1;
+      let sock_name = `Adidas ${faker.company.bsAdjective()}`;
+      let sock_price = faker.finance.amount(20, 500);
+      let sock_sale_price = Number((sock_price - sock_price * .15).toFixed(2));
+      let sock_picture = socksPic[faker.random.number({'min': 0, 'max': socksPic.length  - 1})];
+      let sock_description = faker.lorem.sentence();
+      let sock_stock = faker.random.number({'min': 1, 'max': 50});
+      let sock_size = productSizeGobal[i % productSizeGobal.length];
+      let sock_likes = faker.random.boolean();
 
-      let data = `${id},${name},${price},${sale_price},${picture},${description},${stock},${size},${likes}\n`;
+      let data = `${sock_id},${sock_name},${sock_price},${sock_sale_price},${sock_picture},${sock_description},${sock_stock},${sock_size},${sock_likes}\n`;
 
       if (i === 0) {
         writer.write(data, encoding, callback);
