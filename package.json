@@ -16,7 +16,8 @@
     "build:prod": "webpack --config webpack.prod.js",
     "sdc-dev": "nodemon server/sdc-server.js",
     "sdc-prod": "node server/sdc-server.js",
-    "sdc:data": "node --max-old-space-size=8192 generateData.js"
+    "sdc:data": "node --max-old-space-size=8192 generateData.js",
+    "test:load": "k6 run stress-test/loadTest.js"
   },
   "repository": {
     "type": "git",
