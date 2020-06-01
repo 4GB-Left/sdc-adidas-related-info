@@ -28,7 +28,7 @@ class App extends React.Component{
 				this.sortData(data);
 			})
 			.catch(e => {
-				console.error('Error fetching database => ', e)
+				// console.error('Error fetching database => ', e)
 			})
 	}
 
