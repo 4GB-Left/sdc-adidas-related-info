@@ -2,16 +2,16 @@ FROM node:12.16.3
 
 RUN mkdir -p /src/app
 
+FROM node:12-alpine
+
+RUN mkdir -p /src/app
+
 WORKDIR /src/app
 
-COPY ./public /src/app/public
-
-COPY ./server /src/app/server
-
-COPY ./package.json /src/app
+COPY . /src/app
 
 RUN npm install
 
-EXPOSE 3002
+EXPOSE 5000
 
-CMD [ "npm", "run", "server" ]
+CMD [ "npm", "run", "sdc-prod" ]

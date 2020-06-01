@@ -236,3 +236,7 @@ ALTER TABLE complet_the_look add CONSTRAINT FOREIGN KEY(ctl_pant_id) REFERENCES 
 ALTER TABLE complet_the_look add CONSTRAINT FOREIGN KEY(ctl_sock_id) REFERENCES shirts(sock_id);
 ALTER TABLE relation_related_and_looks CONSTRAINT FOREIGN KEY(rrl_look_id) REFERENCES complete_the_look(ctl_id);
 ALTER TABLE relation_related_and_looks CONSTRAINT FOREIGN KEY(rrl_related_id) REFERENCES related_products(related_id);
+
+
+## Connecting to EC2 for service
+```> ssh ec2-user@13.57.188.248 -i Charlie-Thao23.pem```

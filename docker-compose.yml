@@ -1,25 +1,16 @@
-version: '3.2'
-
+version: "3"
 services:
-  related_info:
-    build: .
+  sdc_db:
+    build: data/
+  sdc_service:
+    build: server/
     depends_on:
-      - 'mysql'
+      - 'adidas_related_info'
     ports:
-      - '3002:3002'
-
-  mysql:
-    image: mysql:5.7
-    restart: always
-    environment:
-      MYSQL_USER_FILE: /seed/mysql.user
-      MYSQL_PASSWORD_FILE: /seed/mysql.pass 
-      MYSQL_ROOT_PASSWORD_FILE: /seed/mysql.pass
-      MYSQL_DATABASE: adidas
+      - '3001:3001'
+    container_name: "my_postgres"
+    ports:
+      - "54320:5432"
     volumes:
-      - type: bind
-        source: ./data
-        target: /docker-entrypoint-initdb.d/
-      - type: bind
-        source: ./seed
-        target: /seed
+      - adidas_related_info:/var/lib/postgresql/data
+
