@@ -21,20 +21,20 @@ class App extends React.Component{
 	}
 
 	componentDidMount() {
-		console.log('componentDidMount')
 		// axios.get(`http://localhost:5000/looks/${this.state.look_id}`)
 		axios.get(`http://localhost:5000/looks/1`)
 			.then(({data}) => {
-				console.log('charlie data =>', data)
+				// console.log('charlie data =>', data)
 				this.sortData(data);
 			})
 			.catch(e => {
-				console.error('charlie => ', e)
+				console.error('Error fetching database => ', e)
 			})
 	}
 
 	sortData(data) {
-		console.log('sort fnx => ', data)
+		// console.log('sort fnx => ', data)
+
 		let ctlDictionary = {};
 		let relatedProd = [];
 		let completeTheLook = [];
@@ -79,22 +79,19 @@ class App extends React.Component{
 			related['liked'] = el.related_likes;
 
 			relatedProd.push(related);
-
 		});
 
 		this.setState({
 			ctl: completeTheLook,
-			related: relatedProd
+			related_prod: relatedProd
 		});
 	}
 
 	render(){
-		console.log('state => ', this.state)
-
 		return (
 			<Container>
-        <CompleteTheLook />
-				<YouMayAlsoLike />
+        <CompleteTheLook ctl={this.state.ctl}/>
+				<YouMayAlsoLike relatedProd={this.state.related_prod}/>
 			</Container>
 		);
 	}

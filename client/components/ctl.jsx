@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const ctlMockData = [
@@ -7,14 +7,22 @@ const ctlMockData = [
 	{productId: 'FM0675', image: 'https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/3e4565d1b7c143a8a4b8ab120163b462_9366/FM0675_00_plp_standard.jpg?sh=295&amp;strip=false&amp;sw=295', price: 14, sizes: ['M'], href: 'https://www.adidas.com/us/trefoil-crew-socks-2-pairs/FM0675.html', title: 'Trefoil Crew Socks 2 Pairs'}
 ];
 
-class CompleteTheLook extends Component{
+class CompleteTheLook extends React.Component{
 	constructor(props){
 		super(props);
 
+		console.log('constructor (props) => ', this.props)
+
 		this.state = {
-			products: ctlMockData,
-			selectedIndex: undefined 
+			// products: ctlMockData,
+			selectedIndex: undefined,
+			products: []
 		};
+	}
+
+	componentDidMount() {
+		this.setState({ products: this.props.ctl });
+		console.log('CompleteTheLook (componentDidMount) => (state): ', this.props.ctl)
 	}
 
 	selectItem(i){
@@ -22,13 +30,18 @@ class CompleteTheLook extends Component{
 	}
 
 	render(){
-		let miniDetailCard = this.state.selectedIndex !== undefined ? (<StyledDetailContainer product={this.state.products[this.state.selectedIndex]}/>) : '';
+		// let miniDetailCard = this.state.selectedIndex !== undefined ? (<StyledDetailContainer product={this.state.products[this.state.selectedIndex]}/>) : '';
+		let miniDetailCard = this.state.selectedIndex !== undefined ? (<StyledDetailContainer product={this.props.ctl.length > 0 ? this.props.ctl[this.state.selectedIndex] : []}/>) : '';
+
+		console.log('CompleteTheLook (render) props, state => ', this.props.ctl, this.state.products)
 
 		return (
 			<SubContainer>
 				<h4>complete the look</h4>
 				<div className="content_container">
-					<ListContainer products={this.state.products} selectItem={this.selectItem.bind(this)} selectedIndex={this.state.selectedIndex}/>
+					{/* <ListContainer products={this.state.products} selectItem={this.selectItem.bind(this)} selectedIndex={this.state.selectedIndex}/>
+					{miniDetailCard} */}
+					<ListContainer products={this.props.ctl.length > 0 ? this.props.ctl : []} selectItem={this.selectItem.bind(this)} selectedIndex={this.state.selectedIndex}/>
 					{miniDetailCard}
 				</div>
 			</SubContainer>
@@ -74,7 +87,7 @@ const SubContainer = styled.div`
 	}
 `;
 
-class ListContainer extends Component{
+class ListContainer extends React.Component{
 	constructor(props){
 		super(props);
 
@@ -121,7 +134,7 @@ const StyledProductCard = styled(ProductCard)`
     }
 `;
 
-class DetailContainer extends Component{
+class DetailContainer extends React.Component{
 	constructor(props){
 		super(props);
 
@@ -194,7 +207,7 @@ const StyledDetailContainer = styled(DetailContainer)`
 	    margin-bottom: 20px;
 	    text-transform: uppercase;
 	    padding: 0;
-    }	
+    }
 
     .product_image {
     	flex: 4;
@@ -273,7 +286,7 @@ const SizeDropdown = ({className, sizes, showSizeOption, handleClick, selectSize
 		);
 	} );
 
-	let selectBox = showSizeOption && (				
+	let selectBox = showSizeOption && (
 					<div className="select-size-box">
 						{lists}
 					</div>
@@ -357,11 +370,11 @@ const StyledSizeDropdown = styled(SizeDropdown)`
 
 	.selected {
 		border: 3px solid #000;
-		font-weight: 800 
+		font-weight: 800
 	}
 
     svg {
-    	${props => props.showSizeOption ? "transform: scaleY(-1);" : ""};			
+    	${props => props.showSizeOption ? "transform: scaleY(-1);" : ""};
     }
 `;
 

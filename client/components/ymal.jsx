@@ -15,7 +15,8 @@ class YouMayAlsoLike extends React.Component{
 		return (
 			<SectionContainer>
 				<h5>you may also like</h5>
-				<StyledCarousel products={this.state.products}/>
+				{/* <StyledCarousel products={this.state.products}/> */}
+				<StyledCarousel products={this.props.relatedProd.length > 0 ? this.props.relatedProd : []}/>
 			</SectionContainer>
 		);
 	}
@@ -25,7 +26,7 @@ const SectionContainer = styled.div`
 	width: 60%;
 	margin-bottom: 80px;
 	padding: 0 40px;
-	
+
 	font-family: AdihausDIN,Helvetica,Arial,sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -60,6 +61,8 @@ class Carousel extends React.Component{
 		}
 
 		this.moveRight = () => {
+			console.log('move right');
+
 			let numberOfPage = Math.ceil(this.totalCards / this.cardPerPage);
 			let currentPage = this.state.currentPage + 1;
 
@@ -71,14 +74,16 @@ class Carousel extends React.Component{
 		}
 
 		this.moveLeft = () => {
+			console.log('move left');
+
 			let lastPage = Math.ceil(this.totalCards / this.cardPerPage) - 1;
 			let currentPage = this.state.currentPage - 1;
-			
+
 			if(currentPage < 0){
 				currentPage = lastPage;
 			}
 
-			this.scrollToPage(currentPage);	
+			this.scrollToPage(currentPage);
 		}
 
 		this.moveTo = (e) => {
@@ -89,7 +94,7 @@ class Carousel extends React.Component{
 		this.setCurrentPage = () => {
 			let el = this.imageList.current;
 			let w = el.offsetWidth;
-			let cardW = w / this.cardPerPage;	
+			let cardW = w / this.cardPerPage;
 
 			//update currentPage once scroll pass the fist card for better UX
 			let currentPage = Math.ceil((el.scrollLeft - cardW) / w);
@@ -103,7 +108,7 @@ class Carousel extends React.Component{
 		let pagination = [];
 		let productCards = [];
 
-		this.props.products.forEach( p => {	
+		this.props.products.forEach( p => {
 			let snapStart = false;
 			if(index % this.cardPerPage === 0){
 				let isCurrentPage = (this.state.currentPage === Math.ceil(index / this.cardPerPage));
@@ -131,13 +136,13 @@ class Carousel extends React.Component{
 						<svg>
 							<symbol id="arrow-right" viewBox="0 0 10 24"><path fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="2" d="M2 5.5L8.5 12 2 18.5"></path></symbol>
 							<use href="#arrow-right"></use>
-						</svg>							
+						</svg>
 					</button>
 					<button onClick={this.moveRight} className='right'>
 						<svg>
 							<symbol id="arrow-right" viewBox="0 0 10 24"><path fill="none" stroke="currentColor" strokeMiterlimit="10" strokeWidth="2" d="M2 5.5L8.5 12 2 18.5"></path></symbol>
 							<use href="#arrow-right"></use>
-						</svg>							
+						</svg>
 					</button>
 				</div>
 				<div className='pagination'>
