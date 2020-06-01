@@ -22,7 +22,7 @@ function completeTheLook(id, callback) {
       // console.log('error in query: ', err)
       callback(err, null);
     } else {
-      console.log('data => ', data.rows)
+      // console.log('data => ', data.rows)
       callback(null, data.rows)
     }
   })

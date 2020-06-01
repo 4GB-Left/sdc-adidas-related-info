@@ -29,7 +29,7 @@ app.get('/looks/:id', (req, res) => {
     if(err) {
       res.status(400).send(err);
     }
-    console.log('res => ', data.length, data)
+    // console.log('res => ', data.length, data)
     res.status(200).send(data)
   })
 })

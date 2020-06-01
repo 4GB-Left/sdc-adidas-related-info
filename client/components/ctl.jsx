@@ -11,7 +11,7 @@ class CompleteTheLook extends React.Component{
 	constructor(props){
 		super(props);
 
-		console.log('constructor (props) => ', this.props)
+		// console.log('constructor (props) => ', this.props)
 
 		this.state = {
 			// products: ctlMockData,
@@ -22,7 +22,7 @@ class CompleteTheLook extends React.Component{
 
 	componentDidMount() {
 		this.setState({ products: this.props.ctl });
-		console.log('CompleteTheLook (componentDidMount) => (state): ', this.props.ctl)
+		// console.log('CompleteTheLook (componentDidMount) => (state): ', this.props.ctl)
 	}
 
 	selectItem(i){
@@ -33,7 +33,7 @@ class CompleteTheLook extends React.Component{
 		// let miniDetailCard = this.state.selectedIndex !== undefined ? (<StyledDetailContainer product={this.state.products[this.state.selectedIndex]}/>) : '';
 		let miniDetailCard = this.state.selectedIndex !== undefined ? (<StyledDetailContainer product={this.props.ctl.length > 0 ? this.props.ctl[this.state.selectedIndex] : []}/>) : '';
 
-		console.log('CompleteTheLook (render) props, state => ', this.props.ctl, this.state.products)
+		// console.log('CompleteTheLook (render) props, state => ', this.props.ctl, this.state.products)
 
 		return (
 			<SubContainer>
