@@ -33,3 +33,11 @@ let startTime = process.hrtime();
 relationTable(collectionSizes.looks, collectionSizes.relatedProductsSize, 12, startTime);
 
 
+// writeMillionOfDataForRelationTable(shirtsCollection, 'utf-8', () => {
+//   shirtsCollection.end();
+
+//   console.log(`Finished generating shirts.csv. Size: ${collectionSizes.shirts}`)
+//   let endTime = process.hrtime(startTime);
+//   console.log(`Execution time (hr): ${endTime[0]} sec, ${endTime[1]/1000000} ms\n`);
+// });
+

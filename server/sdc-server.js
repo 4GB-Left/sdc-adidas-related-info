@@ -2,6 +2,7 @@
 require('newrelic');
 const express = require('express');
 const path = require('path');
+const expressStaticGzip = require('express-static-gzip');
 
 const ctr = require('./sdc-routes/mainController.js');
 
@@ -20,12 +21,26 @@ app.use(function (req, res, next) {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(expressStaticGzip(path.join(__dirname, '../public'), {
+  enableBrotli: true,
+  orderPreference: ['br', 'gz']
+}));
 
 // API's routes
-app.get('/looks/:id', (req, res) => {
+app.get('/looks/:id', async (req, res) => {
   console.log('server => (id): ', req.body.id, req.body)
-  ctr.completeTheLook(1, (err, data) => {
+  await ctr.completeTheLook(1, (err, data) => {
+    if(err) {
+      res.status(400).send(err);
+    }
+    // console.log('res => ', data.length, data)
+    res.status(200).send(data)
+  })
+})
+
+app.get('/relatedProduct/:id', async (req, res) => {
+  console.log('server => (id): ', req.body.id, req.body)
+  await ctr.relatedProduct(1, (err, data) => {
     if(err) {
       res.status(400).send(err);
     }

@@ -21,14 +21,14 @@ VU = (1000 * 1.5)/1 = 1500
 
 export let options = {
   max_vus: 1500,
-  vus: 130,
+  vus: 140,
   stages: [
     { duration: '30s', target: 50 }, // below normal load
     { duration: '30s', target: 100 }, // within normal load
     // { duration: '30s', target: 200 } // beyond breaking point
     { duration: '30s', target: 120 }, // still within normal load
     { duration: '30s', target: 125 }, //  still within normal load
-    { duration: '30s', target: 130 }, // around the breaking point
+    { duration: '30s', target: 140 }, // around the breaking point
   ],
   thresholds: {
     'RTT': ['avg<2000']

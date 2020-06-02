@@ -7,7 +7,7 @@ mysql.pass
 server/db/mysql_config.js
 .DS_Store
 .jest.config.js.swp
-app.bundle.js
+# app.bundle.js
 # public/app.bundle.js
 
 # tempary git ignore the large csv file
