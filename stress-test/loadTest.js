@@ -21,7 +21,7 @@ VU = (1000 * 1.5)/1 = 1500
 
 export let options = {
   stages: [
-    { duration: '1m', target: 250},
+    { duration: '1m', target: 100},
     // { duration: '5m', target: 1000 },
     // { duration: '3m', target: 1100 },
     // { duration: '3m', target: 1200 },
@@ -42,5 +42,5 @@ export default function() {
     'transaction time under 2000ms': (r) => r.timings.duration < 2000
   });
 
-  sleep(1);
+  sleep(.01);
 }
