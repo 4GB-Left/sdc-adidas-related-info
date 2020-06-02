@@ -20,25 +20,26 @@ VU = (1000 * 1.5)/1 = 1500
 */
 
 export let options = {
-  max_vus: 1500,
-  vus: 140,
   stages: [
-    { duration: '30s', target: 50 }, // below normal load
-    { duration: '30s', target: 100 }, // within normal load
-    // { duration: '30s', target: 200 } // beyond breaking point
-    { duration: '30s', target: 120 }, // still within normal load
-    { duration: '30s', target: 125 }, //  still within normal load
-    { duration: '30s', target: 140 }, // around the breaking point
+    { duration: '1m', target: 250},
+    // { duration: '5m', target: 1000 },
+    // { duration: '3m', target: 1100 },
+    // { duration: '3m', target: 1200 },
+    // { duration: '3m', target: 1300 },
+    // { duration: '3m', target: 1400 },
+    // { duration: '3m', target: 1500 },
   ],
   thresholds: {
-    'RTT': ['avg<2000']
+    // 90% of requests must finish within 400ms.
+    'http_req_duration': ['p(90) < 400'],
   }
 };
 
 export default function() {
-  let res = http.get('http://localhost:5000');
+  let res = http.get('http://localhost:5000/looks/1');
   check(res, {
-    'status was 200': (r) => r.status == 200
+    'status was 200': (r) => r.status == 200,
+    'transaction time under 2000ms': (r) => r.timings.duration < 2000
   });
 
   sleep(1);

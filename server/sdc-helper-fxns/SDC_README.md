@@ -240,3 +240,13 @@ ALTER TABLE relation_related_and_looks CONSTRAINT FOREIGN KEY(rrl_related_id) RE
 
 ## Connecting to EC2 for service
 ```> ssh ec2-user@13.57.188.248 -i Charlie-Thao23.pem```
+
+## To get redis started
+
+Install redis on your system first:
+
+```> brew install redis```
+
+then start the redis server:
+
+```> redis-server```

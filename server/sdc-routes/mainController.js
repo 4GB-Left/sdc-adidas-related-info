@@ -1,22 +1,16 @@
 // acquire the database connection
-const Redis = require('ioredis');
 const db = require('../sdc-db-config/postgre.config.js');
 
-// const redis = new Redis({
-//   port: 5432, // Redis port
-//   host: "localhost", // Redis host
-//   family: 4, // 4 (IPv4) or 6 (IPv6)
-//   password: "password",
-//   db: 0,
+// const redis = require('redis');
+// const client = redis.createClient();
+
+// client.on('connect', function() {
+//     console.log('Redis client connected');
 // });
 
-// redis.on('connect', () => {
-//   console.log('Redis connected');
+// client.on('error', function (err) {
+//     console.log('Something went wrong ' + err);
 // });
-
-// redis.on('error', (err) => {
-//   console.log('Redis Error: ', err);
-// })
 
 function completeTheLook(id, callback) {
   console.log('hello (id) => ', id);
@@ -40,25 +34,25 @@ function completeTheLook(id, callback) {
     }
   });
 
-  // redis.get(id)
-  //   .then((cache) => {
-  //     if(cache) {
-  //       callback(null, cache);
-  //     }
+//   client.get(id)
+//     .then((cache) => {
+//       if(cache) {
+//         callback(null, cache);
+//       }
 
-  //     if(!cache) {
-  //       db.query(queryStr, (err, data) => {
-  //         if(err) {
-  //           // console.log('error in query: ', err)
-  //           callback(err, null);
-  //         } else {
-  //           // console.log('data => ', data.rows)
-  //           redis.set(id, data.rows);
-  //           callback(null, data.rows);
-  //         }
-  //       });
-  //     }
-  //   });
+//       if(!cache) {
+//         db.query(queryStr, (err, data) => {
+//           if(err) {
+//             // console.log('error in query: ', err)
+//             callback(err, null);
+//           } else {
+//             // console.log('data => ', data.rows)
+//             client.set(id, data.rows);
+//             callback(null, data.rows);
+//           }
+//         });
+//       }
+//     }).catch(e => console.log('Database error: ', e))
 }
 
 function relatedProduct(id, callback) {
@@ -81,28 +75,28 @@ function relatedProduct(id, callback) {
     }
   });
 
-  // redis.get(id)
-  //   .then((cache) => {
-  //     if(cache) {
-  //       callback(null, cache);
-  //     }
+//  client.get(id)
+//    .then((cache) => {
+//      if(cache) {
+//        callback(null, cache);
+//      }
 
-  //     if(!cache) {
-  //       db.query(queryStr, (err, data) => {
-  //         if(err) {
-  //           // console.log('error in query: ', err)
-  //           callback(err, null);
-  //         } else {
-  //           // console.log('data => ', data.rows)
-  //           redis.set(id, data.rows);
-  //           callback(null, data.rows);
-  //         }
-  //       });
-  //     }
-  //   });
+//      if(!cache) {
+//        db.query(queryStr, (err, data) => {
+//          if(err) {
+//            // console.log('error in query: ', err)
+//             callback(err, null);
+//          } else {
+//            // console.log('data => ', data.rows)
+//            client.set(id, data.rows);
+//            callback(null, data.rows);
+//          }
+//        });
+//      }
+//    }).catch(e => console.log('Database error: ', e))
 }
 
 module.exports = {
   completeTheLook,
-  relatedProduct
+  relatedProduct,
 }
