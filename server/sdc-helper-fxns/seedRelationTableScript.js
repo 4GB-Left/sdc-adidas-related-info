@@ -20,9 +20,11 @@ function relationTable(size = 1000000, relatedDataRange, relatedProductQuantity 
         rrl_related_id: faker.random.number({'min': j, 'max': relatedDataRange})
       })
     }
-  }
 
-  writer.once('drain', relationTable)
+    if(i === size) {
+      writer.once('drain', relationTable)
+    }
+  }
 
   writer.end();
 
