@@ -4,7 +4,7 @@ const csvWriter = require('csv-write-stream');
 
 const collectionSizes = {
   relatedProductsSize: 12000000,
-  looks: 1000000
+  looks: 250000
 }
 
 // function to generate relationship table between each set of "complete the look" with related product
@@ -19,10 +19,6 @@ function relationTable(size = 1000000, relatedDataRange, relatedProductQuantity 
         rrl_look_id: i,
         rrl_related_id: faker.random.number({'min': 1, 'max': relatedProductQuantity})
       })
-    }
-
-    if(i === size) {
-      writer.once('drain', relationTable)
     }
   }
 
