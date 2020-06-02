@@ -5,7 +5,7 @@ const collectionSizes = {
   shirts: 3500000,
   pants: 3500000,
   socks: 3500000,
-  looks: 1000000
+  looks: 250000
 }
 
 const looksCollection = fs.createWriteStream(`${__dirname}/csv-files/looks.csv`,{flags:'w'});
