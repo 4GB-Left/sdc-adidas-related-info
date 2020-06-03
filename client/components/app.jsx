@@ -23,7 +23,7 @@ class App extends React.Component{
 
 	componentDidMount() {
 		// axios.get(`http://localhost:5000/looks/${this.state.look_id}`)
-		axios.get(`http://localhost:5000/looks/1`)
+		axios.get(`/looks/1`)
 			.then(({data}) => {
 				// console.log('CTL data =>', data)
 				this.sortDataCTL(data);
@@ -33,7 +33,7 @@ class App extends React.Component{
 			})
 
 		// axios.get(`http://localhost:5000/looks/${this.state.look_id}`)
-		axios.get(`http://localhost:5000/relatedProduct/1`)
+		axios.get(`/relatedProduct/1`)
 			.then(({data}) => {
 				// console.log('RelatedProdu data =>', data)
 				this.sortDataRelatedProd(data);
