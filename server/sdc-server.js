@@ -28,8 +28,8 @@ app.use(expressStaticGzip(path.join(__dirname, '../public'), {
 
 // API's routes
 app.get('/looks/:id', (req, res) => {
-  console.log('server => (id): ', req.body.id, req.body)
-  ctr.completeTheLook(1, (err, data) => {
+  console.log('server => (id): ', req.params.id)
+  ctr.completeTheLook(req.params.id, (err, data) => {
     if(err) {
       res.status(400).send(err);
     }
@@ -39,8 +39,8 @@ app.get('/looks/:id', (req, res) => {
 })
 
 app.get('/relatedProduct/:id', async (req, res) => {
-  console.log('server => (id): ', req.body.id, req.body)
-  await ctr.relatedProduct(1, (err, data) => {
+  console.log('server => (id): ', req.params.id)
+  await ctr.relatedProduct(req.params.id, (err, data) => {
     if(err) {
       res.status(400).send(err);
     }
