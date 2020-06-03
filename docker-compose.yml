@@ -1,16 +1,10 @@
-version: "3"
+version: "2"
 services:
-  sdc_db:
-    build: data/
-  sdc_service:
-    build: server/
-    depends_on:
-      - 'adidas_related_info'
+  postgres:
+    image: postgres
     ports:
-      - '3001:3001'
-    container_name: "my_postgres"
-    ports:
-      - "54320:5432"
-    volumes:
-      - adidas_related_info:/var/lib/postgresql/data
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "adidas_related_info"
+      POSTGRES_HOST_AUTH_METHOD: "trust"
 

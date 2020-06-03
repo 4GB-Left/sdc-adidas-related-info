@@ -1,6 +1,11 @@
 # Dockerfile
 
-FROM postgres:latest
-ENV POSTGRES_PASSWORD postgres
-ENV POSTGRES_DB adidas_related_info
-COPY sdc-psqlSchema.sql /docker-entrypoint-initdb.d/
+version: "2"
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "adidas_related_info"
+      POSTGRES_HOST_AUTH_METHOD: "trust"
