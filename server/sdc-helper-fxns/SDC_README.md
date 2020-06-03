@@ -62,9 +62,9 @@ https://dataschool.com/learn-sql/importing-data-from-csv-in-postgresql/
 ## Syntax to create index in postgres
 ```> CREATE INDEX indx_id ON shirts(id);```
 
-```> CREATE INDEX shirt_id on shirts(shirt_id)```
-```> CREATE INDEX pant_id on pants(pant_id)```
-```> CREATE INDEX sock_id on socks(sock_id)```
+```> CREATE INDEX shirt_id on shirts(shirt_id);```
+```> CREATE INDEX pant_id on pants(pant_id);```
+```> CREATE INDEX sock_id on socks(sock_id);```
 ```> CREATE INDEX related_id ON related_products(related_id);```
 ```> CREATE INDEX ctl_id on complete_the_look(ctl_id);```
 ```> CREATE INDEX look_relation_id ON relation_related_and_looks(look_id);```
