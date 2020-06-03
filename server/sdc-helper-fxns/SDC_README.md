@@ -55,10 +55,9 @@ In the terminal, run:
 ## NOTE: this is how you import csv into postgres
 https://dataschool.com/learn-sql/importing-data-from-csv-in-postgresql/
 
-```> \copy shirts From '/Users/charliethao/Desktop/shirts.csv' DELIMITER ',' CSV HEADER;``
+```> \copy shirts From '/Users/charliethao/Desktop/shirts.csv' DELIMITER ',' CSV HEADER;```
 
 ```> \copy related_products from '/Users/charliethao/Desktop/HackReactor_Immersive_March2020/hrsf127-SDC-2020/adidas-related-info/server/sdc-helper-fxns/csv-files/related_products.csv' DELIMITER ','  CSV HEADER;```
-
 
 ## Syntax to create index in postgres
 ```> CREATE INDEX indx_id ON shirts(id);```
