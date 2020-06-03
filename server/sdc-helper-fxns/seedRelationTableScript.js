@@ -4,7 +4,7 @@ const csvWriter = require('csv-write-stream');
 
 const collectionSizes = {
   relatedProductsSize: 12000000,
-  looks: 250000
+  looks: 1000000
 }
 
 // function to generate relationship table between each set of "complete the look" with related product

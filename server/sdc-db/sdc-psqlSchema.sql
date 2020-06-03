@@ -73,9 +73,14 @@ CREATE TABLE complete_the_look(
 
 -- need to generate a set of 12 related product per each looks
 CREATE TABLE relation_related_and_looks(
-  look_id INTEGER NOT NULL REFERENCES complete_the_look(ctl_id),
-  related_id INTEGER NOT NULL REFERENCES related_products(related_id)
+  look_id INTEGER NOT NULL,
+  related_id INTEGER NOT NULL
 );
+
+
+-- ALTER TABLE relation_related_and_looks ADD CONSTRAINT lookfk FOREIGN KEY (look_id) REFERENCES complete_the_look(ctl_id);
+
+-- ALTER TABLE relation_related_and_looks ADD CONSTRAINT relatedfk FOREIGN KEY (related_id) REFERENCES related_products(related_id);
 
 -- SELECT * FROM complete_the_look ctl
 --   INNER JOIN shirts
