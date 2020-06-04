@@ -27,9 +27,9 @@ app.use(expressStaticGzip(path.join(__dirname, '../public'), {
 }));
 
 // API's routes
-app.get('/looks/:id', (req, res) => {
+app.get('/looks/:id', async (req, res) => {
   console.log('server => (id): ', req.params.id)
-  ctr.completeTheLook(req.params.id, (err, data) => {
+  await ctr.completeTheLook(req.params.id, (err, data) => {
     if(err) {
       res.status(400).send(err);
     }

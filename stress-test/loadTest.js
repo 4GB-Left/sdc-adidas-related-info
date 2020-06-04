@@ -36,7 +36,9 @@ export let options = {
 };
 
 export default function() {
-  let res = http.get('http://localhost:5000/looks/1');
+  let res = http.get('http://localhost:5000/looks/1'); // local test
+  // let res = http.get('http://3.101.80.169:5000/looks/1'); // sdc service test - ec2 (1 instance)
+  // let res = http.get('http://52.53.187.183:5000/looks/1'); // sdc service test -ec2 (2 instances: 1 instance for node server, 1 for database)
   check(res, {
     'status was 200': (r) => r.status == 200,
     'transaction time under 2000ms': (r) => r.timings.duration < 2000

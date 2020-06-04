@@ -66,9 +66,9 @@ CREATE TABLE related_products(
 
 CREATE TABLE complete_the_look(
   ctl_id SERIAL PRIMARY KEY,
-  ctl_shirt_id INTEGER NOT NULL REFERENCES shirts(shirt_id),
-  ctl_pant_id INTEGER NOT NULL REFERENCES pants(pant_id),
-  ctl_sock_id INTEGER NOT NULL REFERENCES socks(sock_id)
+  ctl_shirt_id INTEGER NOT NULL,
+  ctl_pant_id INTEGER NOT NULL,
+  ctl_sock_id INTEGER NOT NULL
 );
 
 -- need to generate a set of 12 related product per each looks
@@ -77,6 +77,12 @@ CREATE TABLE relation_related_and_looks(
   related_id INTEGER NOT NULL
 );
 
+
+-- ALTER TABLE complete_the_look ADD CONSTRAINT ctl_shirtfk FOREIGN KEY (ctl_shirt_id) REFERENCES shirts(shirt_id);
+
+-- ALTER TABLE complete_the_look ADD CONSTRAINT ctl_pantfk FOREIGN KEY (ctl_pant_id) REFERENCES pants(pant_id);
+
+-- ALTER TABLE complete_the_look ADD CONSTRAINT ctl_sockfk FOREIGN KEY (ctl_sock_id) REFERENCES socks(sock_id);
 
 -- ALTER TABLE relation_related_and_looks ADD CONSTRAINT lookfk FOREIGN KEY (look_id) REFERENCES complete_the_look(ctl_id);
 
